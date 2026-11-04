@@ -177,3 +177,7 @@ az rest --method delete --url "<project-endpoint>/agents/jatech-store-agent" \
 - [Host Agent Framework agents as Foundry hosted agents](https://learn.microsoft.com/azure/foundry/how-to/develop/framework-hosted-agents)
 - [Hosted agent token service](https://learn.microsoft.com/azure/foundry/agents/concepts/hosted-agent-token-service)
 - [Agent Framework sample: Hosted-McpTools](https://github.com/microsoft/agent-framework/tree/main/dotnet/samples/04-hosting/FoundryHostedAgents/responses/Hosted-McpTools)
+
+## License
+
+[MIT](LICENSE). The Bicep templates in `mcp-server/infra` are based on a Microsoft sample, under the MIT license in [`LICENSE-sample.md`](mcp-server/infra/LICENSE-sample.md).
