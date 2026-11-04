@@ -1,0 +1,31 @@
+# Build output
+bin/
+obj/
+
+# azd environments: these hold subscription IDs and connection strings
+.azure/
+
+# Local secrets and settings
+.env
+.env.*
+!.env.example
+local.settings.json
+appsettings.local.json
+*.user
+.vs/
+
+# Azurite
+__azurite_db_*
+__blobstorage__/
+__queuestorage__/
+
+# Certificates and publish profiles
+*.pfx
+*.pem
+*.key
+*.publishsettings
+*.PublishSettings
+
+# Local agent session state and personal Claude Code settings
+.checkpoints/
+.claude/settings.local.json

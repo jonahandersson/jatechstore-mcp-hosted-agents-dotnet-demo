@@ -1,0 +1,39 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+# Foundry hosted agent, deployed from source (ZIP). Based on the official
+# Agent Framework sample Hosted-McpTools. Uses an EXISTING Foundry project and model deployment.
+
+name: jatech-store-agent
+services:
+    ai-project:
+        host: azure.ai.project
+    jatech-store-agent:
+        project: .
+        host: azure.ai.agent
+        language: csharp
+        uses:
+            - ai-project
+        codeConfiguration:
+            dependencyResolution: remote_build
+            entryPoint: JonahAnderssonTech.StoreAgent.dll
+            runtime: dotnet_10
+        env:
+            ASPNETCORE_URLS: http://+:8088
+            AZURE_AI_MODEL_DEPLOYMENT_NAME: ${AZURE_AI_MODEL_DEPLOYMENT_NAME}
+            MCP_SERVER_URL: ${MCP_SERVER_URL}
+            MCP_SERVER_AUDIENCE: ${MCP_SERVER_AUDIENCE}
+        container:
+            resources:
+                cpu: "0.5"
+                memory: 1Gi
+        description: |
+            Jonah Andersson Tech store assistant that calls MCP tools hosted on Azure Functions (.NET).
+        kind: hosted
+        metadata:
+            tags:
+                - AI Agent Hosting
+                - Agent Framework
+                - MCP
+        name: jatech-store-agent
+        protocols:
+            - protocol: responses
+              version: 2.0.0
