@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+# MCP server on Azure Functions (Flex Consumption). Infra is the official
+# Azure-Samples/remote-mcp-functions-dotnet Bicep (MIT), which turns on
+# Microsoft Entra built-in auth by default.
+
+name: jonah-andersson-tech-store-mcp
+infra:
+  provider: bicep
+  path: ./infra
+services:
+  mcp:                      # must stay "mcp": the Bicep tags the function app with azd-service-name=mcp
+    project: ./src/JonahAnderssonTech.StoreMcp
+    language: dotnet
+    host: function

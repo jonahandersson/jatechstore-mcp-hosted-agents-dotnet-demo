@@ -1,0 +1,143 @@
+{
+  "_readme": "Jonah Andersson Tech store catalog. Edit freely: prices, course list, dates and links. Items with \"bookable\": true can be requested through the request_booking tool. Prices are shown as written here; the tools never invent prices.",
+  "company": {
+    "name": "Jonah Andersson Tech AB",
+    "website": "https://jonahandersson.tech",
+    "links": "https://linktr.ee/jonahandersson",
+    "basedIn": "Hudiksvall, Sweden"
+  },
+  "products": [
+    {
+      "id": "BOOK-LMA",
+      "category": "Book",
+      "title": "Learning Microsoft Azure: Cloud Computing and Development Fundamentals",
+      "description": "A practical guide for developers, solution architects and cloud engineers moving from on-premises or private cloud to Azure: cloud concepts, Azure fundamentals, architecture, security, DevOps, data and AI, serverless and migration.",
+      "format": "Paperback and ebook",
+      "language": "English",
+      "publisher": "O'Reilly Media",
+      "isbn": "1098113322",
+      "price": "See retailer",
+      "url": "https://www.oreilly.com/search/?q=Learning%20Microsoft%20Azure%20Jonah%20Andersson",
+      "bookable": false,
+      "tags": [ "jonah-andersson", "azure", "cloud", "beginner", "migration", "dotnet" ]
+    },
+    {
+      "id": "BOOK-LMA-2E",
+      "category": "Book",
+      "title": "Learning Microsoft Azure, Second Edition (Early Release)",
+      "description": "The updated second edition, published progressively as an O'Reilly Early Release.",
+      "format": "Ebook (early release on the O'Reilly learning platform)",
+      "language": "English",
+      "publisher": "O'Reilly Media",
+      "price": "Included with an O'Reilly subscription",
+      "url": "https://www.oreilly.com/search/?q=Learning%20Microsoft%20Azure%20second%20edition",
+      "bookable": false,
+      "tags": [ "jonah-andersson", "azure", "cloud", "ai", "early-release" ]
+    },
+    {
+      "id": "BOOK-LMA-JA",
+      "category": "Book",
+      "title": "Microsoft Azureを学ぶ (Learning Microsoft Azure, Japanese edition)",
+      "description": "Japanese edition of Learning Microsoft Azure, published March 2025.",
+      "format": "Ebook",
+      "language": "Japanese",
+      "publisher": "O'Reilly Media",
+      "isbn": "9798341624597",
+      "price": "See retailer",
+      "url": "https://www.oreilly.com/library/view/-/9798341624597",
+      "bookable": false,
+      "tags": [ "jonah-andersson", "azure", "cloud", "japanese" ]
+    },
+    {
+      "id": "BOOK-BREADWINNERS-CODE",
+      "category": "Book",
+      "title": "The Breadwinner’s Code: A Living Memoir of Starting From Zero",
+      "description": "Jonah Andersson's living memoir about her story into tech, starting from zero.",
+      "format": "Ebook",
+      "language": "English",
+      "price": "See retailer",
+      "url": "https://www.amazon.com/Breadwinners-Code-Living-Memoir-Starting-ebook/dp/B0HQ192QPV",
+      "bookable": false,
+      "tags": ["jonah-andersson", "memoir", "career"]
+    },
+    {
+      "id": "COURSE-CLOUD-ENG",
+      "category": "Course",
+      "title": "Breaking Into Cloud Engineering",
+      "description": "On-demand video course: a career roadmap for people who want to become cloud engineers, with free .NET and Azure code examples on GitHub.",
+      "format": "On-demand video (O'Reilly learning platform)",
+      "language": "English",
+      "publisher": "O'Reilly Media",
+      "price": "Included with an O'Reilly subscription",
+      "url": "https://github.com/jonahandersson/oreilly-course-breaking-into-cloudengineering-jonahandersson",
+      "bookable": false,
+      "tags": [ "jonah-andersson", "career", "cloud", "beginner", "azd", "dotnet" ]
+    },
+    {
+      "id": "TRAIN-AZURE-FUNDAMENTALS",
+      "category": "Training",
+      "title": "Microsoft Azure Fundamentals (instructor-led)",
+      "description": "Instructor-led Microsoft training delivered by Jonah as a Microsoft Certified Trainer.",
+      "format": "Instructor-led, on-site or online",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "azure", "certification", "beginner", "mct" ]
+    },
+    {
+      "id": "TRAIN-AZURE-DEVELOPER",
+      "category": "Training",
+      "title": "Developing Solutions for Microsoft Azure (instructor-led)",
+      "description": "Instructor-led Microsoft developer training delivered as a Microsoft Certified Trainer.",
+      "format": "Instructor-led, on-site or online",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "azure", "dotnet", "developer", "certification", "mct" ]
+    },
+    {
+      "id": "WORKSHOP-MCP-AGENTS",
+      "category": "Training",
+      "title": "Workshop: Building MCP servers and AI agents with .NET and Azure",
+      "description": "Hands-on workshop based on this talk: MCP servers on Azure Functions, Microsoft Agent Framework, Foundry hosted agents, identity and guardrails.",
+      "format": "Hands-on workshop, 1 day, on-site or online",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "mcp", "agents", "foundry", "dotnet", "azure-functions" ]
+    },
+    {
+      "id": "SVC-CLOUD-ARCHITECTURE",
+      "category": "Service",
+      "title": "Cloud architecture and AI consulting",
+      "description": "Principal Cloud Architect consulting: Azure architecture, platform engineering and DevOps, and bringing AI agents from demo to production.",
+      "format": "Consulting engagement",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "consulting", "azure", "architecture", "platform-engineering", "ai" ]
+    },
+    {
+      "id": "SVC-SPEAKING",
+      "category": "Service",
+      "title": "Keynotes and conference talks",
+      "description": "Talks on Azure, Microsoft Foundry, AI agents, MCP and inclusion in tech, by a Microsoft MVP and O'Reilly author.",
+      "format": "Keynote, talk or panel",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "speaking", "keynote", "ai", "azure", "diversity" ]
+    },
+    {
+      "id": "SVC-MENTORING",
+      "category": "Service",
+      "title": "Mentoring for developers and cloud engineers",
+      "description": "One-to-one or group mentoring on cloud careers, certifications and technical growth.",
+      "format": "Online sessions",
+      "language": "English or Swedish",
+      "price": "On request",
+      "bookable": true,
+      "tags": [ "jonah-andersson", "mentoring", "career", "cloud" ]
+    }
+  ]
+}
