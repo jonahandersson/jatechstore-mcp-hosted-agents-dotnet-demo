@@ -1,4 +1,4 @@
-# Build an MCP server on Azure Functions and connect a Foundry hosted agent
+# Build an MCP server on Azure Functions and connect a Microsoft Foundry hosted agent using .NET
 
 Hello, hej, and mabuhay! Ask this store to book a book, and it says no:
 
