@@ -495,6 +495,7 @@ My skill is personal, so it isn't in this repo, but you can build one for your o
 I'd love to see what you build, and you don't have to learn this alone.
 
 - **Found a bug, or something unclear in this guide?** [Open an issue](https://github.com/jonahandersson/jatechstore-mcp-hosted-agents-dotnet-demo/issues). Please include what you ran and what you saw, and never paste keys, tokens or tenant details.
+- **Found a security problem?** Please report it privately, not in an issue. See [`SECURITY.md`](SECURITY.md).
 - **Have a question, or want to share your project?** [Message me on LinkedIn](https://www.linkedin.com/in/jonahandersson/).
 
 ## Name, brand and license
